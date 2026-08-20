@@ -429,30 +429,6 @@ Automation
 Containment
 ```
 
-This makes the project much more valuable as a SOC portfolio artifact because it demonstrates **measurable operational performance**, not just tool configuration.
-
----
-
-# Security Considerations
-
-This project is a **controlled security research and training environment**.
-
-All attack simulations should be performed only against systems where explicit authorization has been obtained.
-
-Recommended lab practices:
-
-* Use isolated virtual machines.
-* Do not test against production systems.
-* Never expose lab endpoints unnecessarily to the public internet.
-* Protect API credentials and authentication tokens.
-* Do not commit secrets to Git.
-* Use dedicated test accounts.
-* Rotate API credentials when necessary.
-* Maintain backups of important lab configurations.
-* Review automated containment logic before connecting it to real infrastructure.
-
-Automated response actions should always be tested in a controlled environment before being deployed against production assets.
-
 ---
 
 # Key SOC Engineering Concepts Demonstrated
